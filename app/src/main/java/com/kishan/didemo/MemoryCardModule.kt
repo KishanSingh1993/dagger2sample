@@ -1,4 +1,4 @@
-package com.anushka.didemo
+package com.kishan.didemo
 
 import dagger.Module
 import dagger.Provides

@@ -1,4 +1,4 @@
-package com.anushka.didemo
+package com.kishan.didemo
 
 import dagger.Component
 
@@ -10,7 +10,7 @@ import dagger.Component
  * **/
 
 
-@Component(modules = [MemoryCardModule::class])
+@Component(modules = [MemoryCardModule::class,NCBatteryModule::class])
 interface SmartPhoneComponent {
 
     fun getSmartPhone() : SmartPhone

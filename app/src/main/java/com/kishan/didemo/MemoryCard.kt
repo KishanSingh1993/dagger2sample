@@ -1,7 +1,6 @@
-package com.anushka.didemo
+package com.kishan.didemo
 
 import android.util.Log
-import javax.inject.Inject
 
 //@Inject constructor()
 
