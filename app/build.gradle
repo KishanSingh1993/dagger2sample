@@ -7,7 +7,7 @@ android {
     compileSdkVersion 33
 
     defaultConfig {
-        applicationId "com.anushka.didemo"
+        applicationId "com.kishan.didemo"
         minSdkVersion 26
         targetSdkVersion 33
         versionCode 1
