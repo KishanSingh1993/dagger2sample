@@ -1,6 +1,7 @@
 package com.kishan.didemo
 
 import dagger.Component
+import javax.inject.Singleton
 
 
 /**
@@ -9,7 +10,7 @@ import dagger.Component
  * And the rest of the thing will be done by Dagger.
  * **/
 
-
+@Singleton
 @Component(modules = [MemoryCardModule::class,NCBatteryModule::class])
 interface SmartPhoneComponent {
 
