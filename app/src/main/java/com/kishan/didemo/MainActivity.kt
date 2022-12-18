@@ -12,10 +12,18 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        DaggerSmartPhoneComponent.builder()
-            .memoryCardModule(MemoryCardModule(1000))
-            .build()
+
+        (application as SmartPhoneApplication).smartPhoneComponent
             .inject(this)
+
+
+        
+
+
+//        DaggerSmartPhoneComponent.builder()
+//            .memoryCardModule(MemoryCardModule(1000))
+//            .build()
+//            .inject(this)
 
 
 //      DaggerSmartPhoneComponent.create()
